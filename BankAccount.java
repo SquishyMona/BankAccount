@@ -36,7 +36,11 @@ class BankAccount {
         {
             System.out.println("Cannot withdrawl: balance too low");
         }
-        balance = balance - amount;
+        else
+        {
+            balance = balance - amount;
+        }
+
     }
 
     public void deposit(double amt)
@@ -50,6 +54,6 @@ class BankAccount {
 
     public void print()
     {
-        System.out.println("Account Number: " + accountNumber + "\n Balance: $" + balance);
+        System.out.println("\tAccount Number: " + accountNumber + "\n\tBalance: $" + balance + "\n");
     }
 }

@@ -20,8 +20,8 @@ public class SavingsAccount extends BankAccount {
 
     public void print()
     {
-        System.out.println("Account Number: " + accountNumber + 
-                           "\n Balance: $" + balance +
-                           "\n Interest Rate: " + interestRate * 100 + "%\n");
+        System.out.println("\tAccount Number: " + accountNumber + 
+                           "\n\tBalance: $" + balance +
+                           "\n\tInterest Rate: " + interestRate * 100 + "%\n");
     }
 }

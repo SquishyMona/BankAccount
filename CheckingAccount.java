@@ -49,10 +49,10 @@ public class CheckingAccount extends BankAccount {
 
     public void print()
     {
-        System.out.println("Account Number: " + accountNumber + 
-                           "\nBalance: $" + balance +
-                           "\nInterest Rate: " + interestRate * 100 + "%\n" +
-                           "Minimum Balance: $" + minimumBalance +
-                           "\nService Charge: $" + serviceCharge);
+        System.out.println("\tAccount Number: " + accountNumber + 
+                           "\n\tBalance: $" + balance +
+                           "\n\tInterest Rate: " + interestRate * 100 + "%\n" +
+                           "\tMinimum Balance: $" + minimumBalance +
+                           "\n\tService Charge: $" + serviceCharge + "\n");
     }
 }
